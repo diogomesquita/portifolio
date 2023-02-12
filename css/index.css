@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: rgba(230,230,230,255);
+    background-image: url("../img/starfall.gif");
+}
+
+header {
+    display: flex;
+    width: 84.2%;
+    margin: auto auto;
+    flex-flow: row wrap;
+    justify-content: stretch;
+}
+
+header img {
+    width: 100%;
+    margin: auto auto;
+    height: 150px;
+}
+
+.profile-card {
+    display: block;
+    position: absolute;
+    width: 300px;
+    background: rgba(230,230,230,255);
+    text-align: center;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 107.5px;
+}
+
+.profile-card img {
+    margin-left: 5px;
+    width: 200px;
+}
+
+.profile-card h2 {
+    margin-left: 5px;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.profile-card p {
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.social-media img {
+    width: 40px;
+}
+
+#git {
+    width: 28px;
+    margin-bottom: 6px;
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.dados {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 408px;
+    height: 324px;
+    width: 850px;
+    border-bottom-right-radius: 20px;
+    justify-content:center;
+    align-items: center;
+}
+.dados div {
+    width: 260px;
+    min-height: 250px;
+    margin-top: 190px;
+    margin-left: 10px;
+    background: #f1f1f1;
+    margin-bottom: 200px;
+    border-radius: 20px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    justify-content: space-around
+}
+
+.sobreMim div {
+    width: 1150px;
+    min-height: 250px;
+    margin-top: 150px;
+    margin-left: 100px;
+    background: #f1f1f1;
+    margin-bottom: 200px;
+    border-radius: 20px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    justify-content: space-around
+}
+
+.sobreMim h2 {
+    font-size: 30px;
+    border-bottom: 1px solid #ccc9c9;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sobreMim article {
+    font-size: 22px;
+    margin-left: 42px;
+    margin-right: 42px;;
+}
+
+.dados h2 {
+    font-size: 30px;
+    border-bottom: 1px solid #ccc9c9;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dados ul {
+    font-size: 20px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.dados li {
+    margin-right: 40px;
+    margin-top: 2px;
+    text-align: center;
+}
+footer {
+    height: 100px;
+}
